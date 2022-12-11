@@ -79,19 +79,21 @@ img {
 }
 
 /* HEADER */
+.header {
+    border-bottom: 1px solid #ECECEC;;
+}
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
 
-.header-section {
-    border-bottom: 1px solid #ECECEC;;
-}
+
 
 /* Logo */
 
-.logo {
+
+.header__logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -100,13 +102,17 @@ img {
 
     color: var(--logo-color);
     display: block;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
 }
 
-.logo-web {
+.logo__accent {
     color: var(--accent-color);
 }
 
-.navigation .logo {
+.navigation .logo  {
     padding-top: 24px;
     padding-bottom: 24px;;
     margin-right: 93px;
