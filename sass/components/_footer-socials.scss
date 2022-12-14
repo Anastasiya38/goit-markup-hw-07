@@ -1,0 +1,30 @@
+/* Footer socials */
+
+.footer__socials {
+    display: block;
+}
+
+.footer__title {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer__list {
+    margin-top: 20px;
+}
+
+.footer__socials .socials__link {
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer__socials .socials__link:hover,
+.footer__socials .socials__link:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: $accent-color;
+}

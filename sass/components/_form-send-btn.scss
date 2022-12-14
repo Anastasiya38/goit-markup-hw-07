@@ -1,0 +1,20 @@
+/* ---Form-send-btn--- */
+
+.form__btn {
+    width: 200px;
+    height: 50px;
+    color: $text-white-color;
+    background-color: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 30px;
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__btn:hover,
+.form__btn:focus {
+    background-color: $order-button-background-color;
+}

@@ -1,0 +1,31 @@
+/* SOCIALS */
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+    &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    color: rgba(175, 177, 184, 1);
+    border-radius: 50%;
+    transition: color $transition, background-color $transition;
+}
+
+    &__icon {
+    fill: currentColor;
+}
+
+    &__link:hover,
+    &__link:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: $accent-color;
+}
+}

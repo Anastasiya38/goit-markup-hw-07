@@ -1,0 +1,33 @@
+
+$primary-font: 'Roboto',
+sans-serif;
+$secondary-font: 'Raleway',
+sans-serif;
+
+$primary-background-color:#fff;
+$secondary-background-color:#2F303A;
+$third-background-color:#F5F4FA;
+
+$text-black-color:#212121;
+$text-grey-color:#757575;
+$text-grey-rgba:rgba(255, 255, 255, 0.6);
+$text-white-color: #FFFFFF;
+
+$accent-color :#2196F3;
+$logo-color:#000000;
+$order-button-background-color: #188CE8;
+$overlay-color: rgba(47, 48, 58, 0.4);
+$modal-bg-color: #00000033;
+$placeholder-color: #75757580;
+$footer-contacts-color: #ffffff99;
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+$form-border-color: #21212133;
+$subscribe-border-color: #ffffff4d;
+
+body {
+    background-color: $primary-background-color;
+    color: $text-black-color;
+    font-family: $primary-font;
+    letter-spacing: 0.03em;
+}

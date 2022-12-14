@@ -1,0 +1,25 @@
+/* FOOTER */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $secondary-background-color;
+
+
+    &__container {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+    &__logo {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    color: $text-white-color;
+    display: block;
+}
+}

@@ -1,0 +1,32 @@
+.address {
+    margin-top: 20px;
+
+    &__list {
+    font-family: $primary-font;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+    &__item {
+    margin-top: 9px;
+    font-style: normal;
+}
+
+    &__link {
+    display: inline-block;
+    font-style: normal;
+    color: $text-grey-rgba;
+
+    transition: color $transition;
+}
+
+    &__link--colored {
+    color: $text-white-color;
+    transition: color $transition;
+}
+
+    &__link:hover,
+    &__link:focus {
+    color: $accent-color;
+}
+}

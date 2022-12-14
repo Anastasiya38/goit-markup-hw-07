@@ -1,0 +1,42 @@
+/* Feature list */
+
+.feature {
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    &__list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+    &__item {
+    width: 270px;
+}
+
+    &__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+    &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+    &__subtitle {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $text-grey-color;
+}
+}

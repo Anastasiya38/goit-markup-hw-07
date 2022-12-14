@@ -1,0 +1,28 @@
+.section {
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: $text-black-color;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: $text-grey-color;
+}

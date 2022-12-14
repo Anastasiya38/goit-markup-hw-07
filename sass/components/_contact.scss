@@ -1,0 +1,43 @@
+/* CONTACTS - HEADER */
+
+.contact {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+
+
+    &__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: $text-grey-color;
+}
+
+    &__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+    &__email,
+    &__phone {
+    color: $text-grey-color;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 10px;
+    transition: color $transition;
+}
+
+    &__email:hover,
+    &__email:focus,
+    &__phone:hover,
+    &__phone:focus {
+    color: $accent-color;
+}
+
+    &__icon {
+    fill: currentColor;
+}
+}

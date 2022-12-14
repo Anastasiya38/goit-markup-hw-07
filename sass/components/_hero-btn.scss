@@ -1,0 +1,26 @@
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.86;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    color: $text-white-color;
+    background-color: $accent-color;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+
+    margin-top: 30px;
+    padding: 10px 32px;
+
+
+    &:hover,
+    &:focus {
+    background-color: $order-button-background-color;
+}
+}
