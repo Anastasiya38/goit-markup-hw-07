@@ -247,14 +247,14 @@ img {
 
 .button {
     font-weight: 700;
-    font-size: 16px;
+    font-size:16px;
     font-family: inherit;
     line-height: 1.86;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-
+    
     color: var(--text-white-color);
     background-color: var(--accent-color);
 
@@ -264,6 +264,8 @@ img {
 
     margin-top: 30px;
     padding: 10px 32px;
+
+
 }
 
 .button:hover,
@@ -504,9 +506,7 @@ img {
     border-radius: 4px;
     border: transparent;
     margin-top: 30px;
-
-margin-left:165px; 
-margin-right: 165px;
+    
     cursor: pointer;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -514,6 +514,7 @@ margin-right: 165px;
 
 .form__btn:hover,
 .form__btn:focus {
+   
     background-color: var(--order-button-background-color);
 }
 
@@ -917,6 +918,7 @@ color: var(--text-black-color);
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: var(--footer-contacts-color);
+    
 }
 
 
@@ -927,7 +929,7 @@ color: var(--text-black-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+  
     width: 200px;
     height: 50px;
 
@@ -936,18 +938,20 @@ color: var(--text-black-color);
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--text-white-color);
-
+    gap: 10px;
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: transparent;
     cursor: pointer;
 
+    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-form__icon {
     fill: var(--text-white-color);
+   
 }
 
 .subscribe-btn:hover,
